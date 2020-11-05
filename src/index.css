@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+ 
+  background-color: #191919 ;
+  
+
+ 
+}
+
+.navbarKash{
+  background-color: #191919;
+  height: 80px;
+  width: 1700px;
+}
+
+.navbarKash .container .small{
+  position: absolute;
+  height: 70px;
+  padding-top: 20px;
+}
+
+.items{
+  padding-top: 10px;
+  right: 20px;
+}
+
+.ritems{
+text-align: left;
+font: normal normal medium 36px/36px SF Pro Text;
+letter-spacing: 0px;
+color: #F8F6F1;
+opacity: 1;
+left: 200px;
+
+
+}
+
+
+
+
+.btn{
+  border-radius: 10px;
+  font-weight: 700;
+  background-color: #ffe6cc;
+  color: black;
+}
+.kashbody
+{
+
+  background-color: #191919;
+}
+
+.kashbody h2{
+
+position: absolute;
+ color: #E5DFD8;
+padding-top: 150px;
+padding-left: 90px;
+font-size: 60px;
+}
+
+.hashtag{
+  position: absolute;
+  color: #AAA6A1;
+  padding-top: 400px;
+  left: 32%;
+  font-weight: 600;
+  font-size: large;
+}
+
+
+
+.mall{
+    
+    padding-top: 550px;
+    width:35px;
+    
+}
+
+.web {
+  background-color:#191919;
+  position: absolute;
+
+  left: 155px;
+  
+  border: 4px solid transparent;
+  border-right-color: gold;
+  border-left-color: gold;
+  height:600px;
+  width:1184px;
+
+  
+  
+  animation: zoom--In 5s ;
+  
+ 
+  
+}
+
+
+@keyframes zoom--In {
+  /* You could think of as "step 1" */
+  0% {
+    
+    width: 1140px;
+    
+    
+  }
+  /* You could think of as "step 2" */
+  50% {
+  
+    
+    padding: 0;
+    opacity: 0.8;
+    left: 300px;
+    right: 300px;
+    width:1040px;
+    font: normal normal bold 46px/50px SF Pro Display;
+
+  }
+  100% {
+   
+    width: 650px;
+    left: 400px;
+
+
+    font: normal normal bold 10px/10px SF Pro Display;
+  
+   
+    opacity: 0.3;
+  }
+}
+
+
+
+
+.hashtag2{
+  color: #AAA6A1;
+  padding-top: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  animation: text--growth 5s;
+
+  
+}
+@keyframes text--growth {
+
+  0%{
+       font-size: 20px;
+  }
+  50%{
+       font-size: 15px;
+  }
+  100%{
+        font-size: 5px;
+  }
+}
+
+
+ .kash h2{
+
+
+ color: #E5DFD8;
+ padding-top: 150px;
+ font-size: 55px;
+ height: 193;
+
+ animation: textgrowth 5s;
+
+  
+}
+@keyframes textgrowth {
+
+  0%{
+       font-size: 60px;
+  }
+  50%{
+       font-size: 60px;
+  }
+  100%{
+        font-size: 20px;
+  }
+}
+.zoom{
+  position: relative;
+  flex-wrap: wrap;
+  animation: zoom-in 5s;
+  
+}
+
+@keyframes zoom-in{
+  0%{
+  
+    opacity: 0;
+  }
+  50%{
+    transform: scale(0.5);
+  }
+
+  100%{
+    transform: scale(0.7);
+  }
+
+}
+
+.fullimg{
+
+  top:0;
+  position: relative;
+  flex-wrap: wrap;
+  transition: 2s;
+
+  transform: scale(0.7);
+  animation: zoom-on 5s;
+
+  
+  
+}
+
+@keyframes zoom-on{
+  0%{
+    transform: scale(0.7);
+    transition-delay: 2s;
+
+  }
+  100%{
+    transform: scale(0.8);
+  }
+}
+
+.fd{
+  color: #E5DFD8;
+  transition-delay: 3s;
+  padding-bottom: 50px;
+  font-size: 80px;
+}
